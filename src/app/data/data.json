@@ -1,0 +1,107 @@
+{
+  "title": "Flor Colazo | Portafolio",
+  "description": "Analista de Sistemas y estudiante avanzada de Licenciatura en Sistemas. Desarrollo web y aplicaciones.",
+  "image": "/avatar.jpg",
+  "avatar": "/avatar.jpg",
+  "name": "Flor Colazo",
+  "skill": "Analista de Sistemas",
+  "tagline": "Desarrollo web y aplicaciones · Combino la experiencia práctica con una sólida formación académica.",
+  "location": "Argentina",
+  "media": {
+    "email": "florantoc@gmail.com",
+    "cv": "/CV-Florencia-Colazo.pdf",
+    "github": "https://github.com/florcolazo",
+    "linkedin": "https://www.linkedin.com/in/florencia-colazo-7159461b1/"
+  },
+  "about": "Soy Analista de Sistemas graduada y estudiante avanzada de la Licenciatura en Sistemas. Me apasiona seguir aprendiendo y profundizar mis conocimientos para crecer en el mundo tech, combinando la experiencia práctica en desarrollo web con una sólida formación académica.",
+  "stats": [
+    { "value": "+5", "label": "Proyectos desarrollados" },
+    { "value": "2026", "label": "Analista de Sistemas" },
+    { "value": "+10", "label": "Tecnologías" }
+  ],
+  "technologies": [
+    { "icon": "devicon-angular-plain", "name": "Angular" },
+    { "icon": "devicon-typescript-plain", "name": "TypeScript" },
+    { "icon": "devicon-javascript-plain", "name": "JavaScript" },
+    { "icon": "devicon-react-original", "name": "React Native" },
+    { "icon": "devicon-python-plain", "name": "Python" },
+    { "icon": "devicon-rust-original", "name": "Rust" },
+    { "icon": "devicon-nodejs-plain", "name": "Node.js" },
+    { "icon": "icon-database", "name": "SQL" },
+    { "icon": "icon-database", "name": "NoSQL" },
+    { "icon": "devicon-html5-plain", "name": "HTML" },
+    { "icon": "devicon-css3-plain", "name": "CSS" },
+    { "icon": "devicon-git-plain", "name": "Git" }
+  ],
+  "experience": [
+    {
+      "icon": "wifi",
+      "title": "Internet Services",
+      "subtitle": "Desarrolladora web · Administración",
+      "description": "Desarrollo de landing pages y sitios web de la empresa, atención al público y tareas administrativas.",
+      "date": "2015 - Actualidad"
+    },
+    {
+      "icon": "store",
+      "title": "Local de computación",
+      "subtitle": "Atención al público · Administración",
+      "description": "Atención y asesoramiento a clientes, ventas y gestión administrativa del local."
+    }
+  ],
+  "projects": [
+    {
+      "icon": "globe",
+      "title": "Internet Services San José",
+      "subtitle": "Sitio web y panel de administración",
+      "description": "Sitio para un proveedor de internet en San José, Entre Ríos: planes, combos, mapa de cobertura y panel de administración con autenticación.",
+      "technologies": [
+        { "icon": "devicon-react-original", "name": "React" },
+        { "icon": "devicon-typescript-plain", "name": "TypeScript" },
+        { "icon": "devicon-nodejs-plain", "name": "Node.js" },
+        { "icon": "devicon-express-original", "name": "Express" },
+        { "icon": "devicon-sqlite-plain", "name": "SQLite" }
+      ],
+      "image": "/projects/issanjose.jpg",
+      "url": "https://issanjose.com.ar"
+    },
+    {
+      "icon": "refresh-cw",
+      "title": "SyncPanel",
+      "subtitle": "Sincronización de proveedores con Tiendanube",
+      "description": "Panel que sincroniza catálogo, precios y stock de los proveedores Elit e Invid con la tienda online, carga automáticamente los pedidos pagados en el carrito del proveedor y muestra los logs en tiempo real. Incluye un generador de promociones.",
+      "image": "/projects/syncpanel.jpg",
+      "technologies": [
+        { "icon": "devicon-nodejs-plain", "name": "Node.js" },
+        { "icon": "devicon-express-original", "name": "Express" }
+      ]
+    },
+    {
+      "icon": "message-circle",
+      "title": "AgenConecta",
+      "subtitle": "Administración de WhatsApp · Campañas y bandeja compartida",
+      "description": "Aplicación web para enviar campañas por WhatsApp Business y gestionar una bandeja de entrada compartida para que el equipo responda los mensajes entrantes.",
+      "technologies": [
+        { "icon": "devicon-python-plain", "name": "Python" },
+        { "icon": "devicon-sqlalchemy-plain", "name": "SQLAlchemy" },
+        { "icon": "devicon-supabase-plain", "name": "Supabase" }
+      ]
+    }
+  ],
+  "training": [
+    {
+      "icon": "graduation-cap",
+      "title": "UADER – Facultad de Ciencia y Tecnología",
+      "subtitle": "Analista de Sistemas",
+      "description": "Título de pregrado. Sede Concepción del Uruguay.",
+      "date": "Graduada 2026"
+    },
+    {
+      "icon": "school",
+      "title": "UADER – Facultad de Ciencia y Tecnología",
+      "subtitle": "Licenciatura en Sistemas",
+      "description": "Cursando cuarto año. Sede Concepción del Uruguay.",
+      "date": "En curso"
+    }
+  ],
+  "extras": []
+}

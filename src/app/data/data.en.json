@@ -1,0 +1,107 @@
+{
+  "title": "Flor Colazo | Portfolio",
+  "description": "Systems Analyst and advanced Systems Engineering student. Web and app development.",
+  "image": "/avatar.jpg",
+  "avatar": "/avatar.jpg",
+  "name": "Flor Colazo",
+  "skill": "Systems Analyst",
+  "tagline": "Web and app development · Blending hands-on experience with solid academic training.",
+  "location": "Argentina",
+  "media": {
+    "email": "florantoc@gmail.com",
+    "cv": "/CV-Florencia-Colazo.pdf",
+    "github": "https://github.com/florcolazo",
+    "linkedin": "https://www.linkedin.com/in/florencia-colazo-7159461b1/"
+  },
+  "about": "I'm a graduate Systems Analyst and an advanced student of the Systems Engineering degree. I'm passionate about learning and deepening my knowledge to grow in tech, blending hands-on web development experience with solid academic training.",
+  "stats": [
+    { "value": "+5", "label": "Projects built" },
+    { "value": "2026", "label": "Systems Analyst" },
+    { "value": "+10", "label": "Technologies" }
+  ],
+  "technologies": [
+    { "icon": "devicon-angular-plain", "name": "Angular" },
+    { "icon": "devicon-typescript-plain", "name": "TypeScript" },
+    { "icon": "devicon-javascript-plain", "name": "JavaScript" },
+    { "icon": "devicon-react-original", "name": "React Native" },
+    { "icon": "devicon-python-plain", "name": "Python" },
+    { "icon": "devicon-rust-original", "name": "Rust" },
+    { "icon": "devicon-nodejs-plain", "name": "Node.js" },
+    { "icon": "icon-database", "name": "SQL" },
+    { "icon": "icon-database", "name": "NoSQL" },
+    { "icon": "devicon-html5-plain", "name": "HTML" },
+    { "icon": "devicon-css3-plain", "name": "CSS" },
+    { "icon": "devicon-git-plain", "name": "Git" }
+  ],
+  "experience": [
+    {
+      "icon": "wifi",
+      "title": "Internet Services",
+      "subtitle": "Web Developer · Administration",
+      "description": "Development of the company's landing pages and websites, customer service and administrative tasks.",
+      "date": "2015 - Present"
+    },
+    {
+      "icon": "store",
+      "title": "Computer store",
+      "subtitle": "Customer service · Administration",
+      "description": "Customer service and advice, sales and administrative management of the store."
+    }
+  ],
+  "projects": [
+    {
+      "icon": "globe",
+      "title": "Internet Services San José",
+      "subtitle": "Website and admin panel",
+      "description": "Website for an internet provider in San José, Entre Ríos: plans, bundles, coverage map and an admin panel with authentication.",
+      "technologies": [
+        { "icon": "devicon-react-original", "name": "React" },
+        { "icon": "devicon-typescript-plain", "name": "TypeScript" },
+        { "icon": "devicon-nodejs-plain", "name": "Node.js" },
+        { "icon": "devicon-express-original", "name": "Express" },
+        { "icon": "devicon-sqlite-plain", "name": "SQLite" }
+      ],
+      "image": "/projects/issanjose.jpg",
+      "url": "https://issanjose.com.ar"
+    },
+    {
+      "icon": "refresh-cw",
+      "title": "SyncPanel",
+      "subtitle": "Supplier sync with Tiendanube",
+      "description": "Panel that syncs catalog, prices and stock from suppliers Elit and Invid with the online store, automatically loads paid orders into the supplier's cart and shows logs in real time. Includes a promotions generator.",
+      "image": "/projects/syncpanel.jpg",
+      "technologies": [
+        { "icon": "devicon-nodejs-plain", "name": "Node.js" },
+        { "icon": "devicon-express-original", "name": "Express" }
+      ]
+    },
+    {
+      "icon": "message-circle",
+      "title": "AgenConecta",
+      "subtitle": "WhatsApp administration · Campaigns and shared inbox",
+      "description": "Web app to send WhatsApp Business campaigns and manage a shared inbox so the team can reply to incoming messages.",
+      "technologies": [
+        { "icon": "devicon-python-plain", "name": "Python" },
+        { "icon": "devicon-sqlalchemy-plain", "name": "SQLAlchemy" },
+        { "icon": "devicon-supabase-plain", "name": "Supabase" }
+      ]
+    }
+  ],
+  "training": [
+    {
+      "icon": "graduation-cap",
+      "title": "UADER – Faculty of Science and Technology",
+      "subtitle": "Systems Analyst",
+      "description": "Associate degree. Concepción del Uruguay campus.",
+      "date": "Graduated 2026"
+    },
+    {
+      "icon": "school",
+      "title": "UADER – Faculty of Science and Technology",
+      "subtitle": "Systems Engineering (Licenciatura)",
+      "description": "In fourth year. Concepción del Uruguay campus.",
+      "date": "In progress"
+    }
+  ],
+  "extras": []
+}
