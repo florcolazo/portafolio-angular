@@ -27,8 +27,8 @@ export class Nav implements OnDestroy {
     const t = this.lang.t();
     return [
       { id: 'sobre-mi', label: t.nav.about },
-      { id: 'stack', label: t.nav.stack },
       { id: 'proyectos', label: t.nav.projects },
+      { id: 'proceso', label: t.nav.process },
       { id: 'contacto', label: t.nav.contact },
     ];
   });
@@ -40,7 +40,7 @@ export class Nav implements OnDestroy {
   }
 
   private setupObserver(): void {
-    const ids = ['inicio', 'sobre-mi', 'stack', 'proyectos', 'contacto'];
+    const ids = ['inicio', 'sobre-mi', 'proyectos', 'proceso', 'contacto'];
     const sections = ids
       .map((id) => document.getElementById(id))
       .filter((el): el is HTMLElement => el !== null);

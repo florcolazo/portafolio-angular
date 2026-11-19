@@ -6,13 +6,15 @@ import { Footer } from './components/footer';
 import { Header } from './components/header';
 import { InfoSection } from './components/info-section';
 import { Nav } from './components/nav';
+import { Process } from './components/process';
 import { Projects } from './components/projects';
+import { Reveal } from './components/reveal';
 import { TechStack } from './components/tech-stack';
 import { LangService } from './services/lang.service';
 
 @Component({
   selector: 'app-root',
-  imports: [Nav, Header, TechStack, InfoSection, Projects, Extras, Contact, Footer],
+  imports: [Nav, Header, TechStack, InfoSection, Projects, Process, Extras, Contact, Footer, Reveal],
   templateUrl: './app.html',
 })
 export class App {

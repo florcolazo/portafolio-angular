@@ -1,43 +1,64 @@
 <app-nav [name]="data().name" />
 
-<main class="container">
-  <app-header [data]="data()" />
+<app-header [data]="data()" />
 
+<main class="container">
   @if (data().about) {
-    <section class="stack" id="sobre-mi">
-      <h2>{{ t().sections.about }}</h2>
-      <p>{{ data().about }}</p>
-      @if (data().stats?.length) {
-        <div class="stats">
-          @for (stat of data().stats; track stat.label) {
-            <div class="stat">
-              <span class="stat-value">{{ stat.value }}</span>
-              <span class="stat-label">{{ stat.label }}</span>
-            </div>
-          }
+    <section class="section" id="sobre-mi">
+      <div class="section-head" appReveal>
+        <span class="eyebrow">{{ t().eyebrows.about }}</span>
+        <h2>{{ t().sections.about }}</h2>
+      </div>
+      <div class="about-grid" [class.with-photo]="!!data().photo">
+        @if (data().photo; as photo) {
+          <figure class="about-photo" appReveal>
+            <img [src]="photo.src" [alt]="photo.alt" loading="lazy" />
+            @if (photo.caption) {
+              <figcaption><i class="icon-presentation" aria-hidden="true"></i>{{ photo.caption }}</figcaption>
+            }
+          </figure>
+        }
+        <div class="about-body">
+        <p class="about-text" appReveal>{{ data().about }}</p>
+        @if (data().stats?.length) {
+          <div class="stats" appReveal>
+            @for (stat of data().stats; track stat.label) {
+              <div class="stat">
+                <span class="stat-value">{{ stat.value }}</span>
+                <span class="stat-label">{{ stat.label }}</span>
+              </div>
+            }
+          </div>
+        }
         </div>
-      }
+      </div>
     </section>
   }
 
-  <hr />
+  @if (data().projects.length) {
+    <div id="proyectos">
+      <app-projects [projects]="data().projects" />
+    </div>
+  }
+
+  @if (data().process?.length) {
+    <app-process [steps]="data().process!" />
+  }
+
+  @if (data().experience.length) {
+    <app-info-section [eyebrow]="t().eyebrows.experience" [title]="t().sections.experience" [items]="data().experience" />
+  }
 
   @if (data().technologies.length) {
     <div id="stack">
       <app-tech-stack [technologies]="data().technologies" />
     </div>
   }
-  @if (data().experience.length) {
-    <app-info-section [title]="t().sections.experience" [items]="data().experience" />
-  }
-  @if (data().projects.length) {
-    <div id="proyectos">
-      <app-projects [projects]="data().projects" />
-    </div>
-  }
+
   @if (data().training.length) {
-    <app-info-section [title]="t().sections.training" [items]="data().training" />
+    <app-info-section [eyebrow]="t().eyebrows.training" [title]="t().sections.training" [items]="data().training" />
   }
+
   @if (data().extras.length) {
     <app-extras [extras]="data().extras" />
   }

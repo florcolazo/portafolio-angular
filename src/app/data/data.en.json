@@ -1,11 +1,17 @@
 {
-  "title": "Flor Colazo | Portfolio",
-  "description": "Systems Analyst and advanced Systems Engineering student. Web and app development.",
-  "image": "/avatar.jpg",
+  "title": "Florencia Colazo | Systems Analyst & Full Stack Developer",
+  "description": "Systems Analyst & Full Stack Developer, advanced Information Systems student. Web and app development.",
+  "image": "https://florcolazo-portfolio.vercel.app/avatar.jpg",
   "avatar": "/avatar.jpg",
-  "name": "Flor Colazo",
-  "skill": "Systems Analyst",
-  "tagline": "Web and app development · Blending hands-on experience with solid academic training.",
+  "name": "Florencia Colazo",
+  "skill": "Systems Analyst & Full Stack Developer",
+  "headline": "I turn real business problems into *software people use every day.*",
+  "tagline": "Systems Analyst and full stack developer. I understand the business, design the solution and ship it: from the first conversation to a working system.",
+  "available": "Available for new projects",
+  "badges": [
+    "Systems Analyst",
+    "Full Stack"
+  ],
   "location": "Argentina",
   "media": {
     "email": "florantoc@gmail.com",
@@ -13,11 +19,34 @@
     "github": "https://github.com/florcolazo",
     "linkedin": "https://www.linkedin.com/in/florencia-colazo-7159461b1/"
   },
-  "about": "I'm a graduate Systems Analyst and an advanced student of the Systems Engineering degree. I'm passionate about learning and deepening my knowledge to grow in tech, blending hands-on web development experience with solid academic training.",
+  "about": "I'm a Systems Analyst and an advanced student of the Bachelor's in Information Systems. Before coding, I spent over ten years on the other side of the counter: serving customers, selling and running a store. That taught me something you don't learn at university: understand what people need before writing a single line of code. Today I build complete systems, from requirements and data modeling to the interface and deployment, that real teams use every day.",
+  "photo": {"src": "/foto-presentacion.jpg", "alt": "Florencia Colazo presenting La Camisería Urbana at the Faculty of Science and Technology", "caption": "Presenting La Camisería Urbana at FCyT – UADER"},
   "stats": [
-    { "value": "+5", "label": "Projects built" },
-    { "value": "2026", "label": "Systems Analyst" },
-    { "value": "+10", "label": "Technologies" }
+    { "value": "3", "label": "Systems in real use" },
+    { "value": "12+", "label": "Years working with customers" },
+    { "value": "4", "label": "End-to-end projects" }
+  ],
+  "process": [
+    {
+      "icon": "messages-square",
+      "title": "I understand the problem",
+      "text": "I gather requirements by talking to the people who will use the system, not just the ones who ask for it."
+    },
+    {
+      "icon": "pen-tool",
+      "title": "I design the solution",
+      "text": "I model the data, define the flows and sketch the interface before writing code."
+    },
+    {
+      "icon": "code-xml",
+      "title": "I build end to end",
+      "text": "Frontend, backend and database, with clean, maintainable code."
+    },
+    {
+      "icon": "rocket",
+      "title": "I ship and stay involved",
+      "text": "I deploy, train the team and keep improving the system based on real use."
+    }
   ],
   "technologies": [
     { "icon": "devicon-angular-plain", "name": "Angular" },
@@ -35,46 +64,28 @@
   ],
   "experience": [
     {
+      "icon": "laptop",
+      "title": "Freelance",
+      "subtitle": "Full Stack Developer",
+      "description": "Building custom websites, applications and systems for clients, from analysis to production deployment.",
+      "date": "2025 - Present"
+    },
+    {
       "icon": "wifi",
       "title": "Internet Services",
-      "subtitle": "Web Developer · Administration",
-      "description": "Development of the company's landing pages and websites, customer service and administrative tasks.",
-      "date": "2015 - Present"
+      "subtitle": "Administration · Customer service",
+      "description": "Administration and customer service role. I also built the agency's websites.",
+      "date": "2018 - Present"
     },
     {
       "icon": "store",
       "title": "Computer store",
-      "subtitle": "Customer service · Administration",
-      "description": "Customer service and advice, sales and administrative management of the store."
+      "subtitle": "Online sales · Administration",
+      "description": "Started as a walk-in store; today it operates exclusively through online sales. I handle sales, customer advice and administrative management.",
+      "date": "2014 - Present"
     }
   ],
   "projects": [
-    {
-      "icon": "globe",
-      "title": "Internet Services San José",
-      "subtitle": "Website and admin panel",
-      "description": "Website for an internet provider in San José, Entre Ríos: plans, bundles, coverage map and an admin panel with authentication.",
-      "technologies": [
-        { "icon": "devicon-react-original", "name": "React" },
-        { "icon": "devicon-typescript-plain", "name": "TypeScript" },
-        { "icon": "devicon-nodejs-plain", "name": "Node.js" },
-        { "icon": "devicon-express-original", "name": "Express" },
-        { "icon": "devicon-sqlite-plain", "name": "SQLite" }
-      ],
-      "image": "/projects/issanjose.jpg",
-      "url": "https://issanjose.com.ar"
-    },
-    {
-      "icon": "refresh-cw",
-      "title": "SyncPanel",
-      "subtitle": "Supplier sync with Tiendanube",
-      "description": "Panel that syncs catalog, prices and stock from suppliers Elit and Invid with the online store, automatically loads paid orders into the supplier's cart and shows logs in real time. Includes a promotions generator.",
-      "image": "/projects/syncpanel.jpg",
-      "technologies": [
-        { "icon": "devicon-nodejs-plain", "name": "Node.js" },
-        { "icon": "devicon-express-original", "name": "Express" }
-      ]
-    },
     {
       "icon": "message-circle",
       "title": "AgenConecta",
@@ -84,6 +95,94 @@
         { "icon": "devicon-python-plain", "name": "Python" },
         { "icon": "devicon-sqlalchemy-plain", "name": "SQLAlchemy" },
         { "icon": "devicon-supabase-plain", "name": "Supabase" }
+      ],
+      "images": [
+        "/projects/agenconecta-bandeja.jpg",
+        "/projects/agenconecta-tareas.jpg",
+        "/projects/agenconecta-campanas.jpg",
+        "/projects/agenconecta-plantillas.jpg",
+        "/projects/agenconecta-calidad.jpg"
+      ],
+      "status": "In use",
+      "problem": "An internet provider's support team answered WhatsApp without knowing who was handling each customer, and outage or payment notices were sent one by one.",
+      "highlights": [
+        "Shared inbox with statuses, conversation assignment, tags and internal notes.",
+        "Campaigns with Meta-approved templates and tracking of sent, failed and skipped messages.",
+        "Area notices for outages, a maintenance schedule and contact data quality checks."
+      ]
+    },
+    {
+      "icon": "shopping-bag",
+      "title": "La Camisería Urbana",
+      "subtitle": "Shirt e-commerce · Store and admin panel",
+      "description": "Online store with catalog, search and filters, favorites, shopping bag and Mercado Pago checkout, plus email confirmations. Includes an admin panel for products, stock by size and color, sales and a promotions calendar.",
+      "technologies": [
+        { "icon": "devicon-react-original", "name": "React" },
+        { "icon": "devicon-typescript-plain", "name": "TypeScript" },
+        { "icon": "devicon-rust-original", "name": "Rust" },
+        { "icon": "devicon-graphql-plain", "name": "GraphQL" },
+        { "icon": "devicon-postgresql-plain", "name": "PostgreSQL" },
+        { "icon": "devicon-redis-plain", "name": "Redis" }
+      ],
+      "images": [
+        "/projects/lcu-inicio.jpg",
+        "/projects/lcu-productos.jpg",
+        "/projects/lcu-producto.jpg",
+        "/projects/lcu-bolsa.jpg",
+        "/projects/lcu-pago.jpg",
+        "/projects/lcu-admin-productos.jpg",
+        "/projects/lcu-admin-stock.jpg",
+        "/projects/lcu-admin-promociones.jpg"
+      ],
+      "github": "https://github.com/florcolazo/e-commerce-tienda",
+      "status": "Academic project",
+      "problem": "University project: design and build a complete e-commerce, with real payments, stock management and an admin panel, using Kanban.",
+      "highlights": [
+        "Store with catalog, search and filters, favorites, shopping bag and Mercado Pago checkout.",
+        "Admin panel: products, stock by size and color, sales and a promotions calendar.",
+        "GraphQL API in Rust with Redis caching and rate limiting."
+      ]
+    },
+    {
+      "icon": "globe",
+      "title": "Internet Services Agency Website",
+      "subtitle": "Website and admin panel",
+      "description": "Website for an internet provider in San José, Entre Ríos: plans, bundles, coverage map and an admin panel with authentication.",
+      "technologies": [
+        { "icon": "devicon-html5-plain", "name": "HTML" },
+        { "icon": "devicon-css3-plain", "name": "CSS" },
+        { "icon": "devicon-javascript-plain", "name": "JavaScript" },
+        { "icon": "devicon-firebase-plain", "name": "Firebase" },
+        { "icon": "devicon-nodejs-plain", "name": "Node.js" },
+        { "icon": "devicon-express-original", "name": "Express" },
+        { "icon": "devicon-sqlite-plain", "name": "SQLite" }
+      ],
+      "image": "/projects/issanjose.jpg",
+      "url": "https://issanjose.com.ar",
+      "status": "In use",
+      "problem": "Customers had to call the office to ask about plans or find out whether fiber reached their home.",
+      "highlights": [
+        "Plans and bundles catalog, FAQ and direct WhatsApp contact.",
+        "Coverage map where customers check their street and request installation.",
+        "Admin panel with authentication and its own API."
+      ]
+    },
+    {
+      "icon": "refresh-cw",
+      "title": "SyncPanel",
+      "subtitle": "Supplier sync with Tiendanube",
+      "description": "Panel that syncs catalog, prices and stock from wholesale suppliers with the online store, automatically loads paid orders into the supplier's cart and shows logs in real time. Includes a promotions generator.",
+      "image": "/projects/syncpanel.jpg",
+      "technologies": [
+        { "icon": "devicon-nodejs-plain", "name": "Node.js" },
+        { "icon": "devicon-express-original", "name": "Express" }
+      ],
+      "status": "In use",
+      "problem": "Keeping two wholesale suppliers' catalog, prices and stock up to date in the online store was manual, and every order had to be entered by hand at the supplier.",
+      "highlights": [
+        "Syncs catalog, prices and stock from wholesale suppliers to Tiendanube.",
+        "Automatically places paid orders in the supplier's cart.",
+        "Real-time logs and a promotions generator."
       ]
     }
   ],
@@ -98,7 +197,7 @@
     {
       "icon": "school",
       "title": "UADER – Faculty of Science and Technology",
-      "subtitle": "Systems Engineering (Licenciatura)",
+      "subtitle": "Bachelor's degree in Information Systems",
       "description": "In fourth year. Concepción del Uruguay campus.",
       "date": "In progress"
     }

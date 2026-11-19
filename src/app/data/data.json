@@ -1,11 +1,17 @@
 {
-  "title": "Flor Colazo | Portafolio",
-  "description": "Analista de Sistemas y estudiante avanzada de Licenciatura en Sistemas. Desarrollo web y aplicaciones.",
-  "image": "/avatar.jpg",
+  "title": "Florencia Colazo | Analista de Sistemas & Full Stack Developer",
+  "description": "Analista de Sistemas & Full Stack Developer, estudiante avanzada de Licenciatura en Sistemas. Desarrollo web y aplicaciones.",
+  "image": "https://florcolazo-portfolio.vercel.app/avatar.jpg",
   "avatar": "/avatar.jpg",
-  "name": "Flor Colazo",
-  "skill": "Analista de Sistemas",
-  "tagline": "Desarrollo web y aplicaciones · Combino la experiencia práctica con una sólida formación académica.",
+  "name": "Florencia Colazo",
+  "skill": "Analista de Sistemas & Full Stack Developer",
+  "headline": "Convierto problemas reales de negocio en *software que se usa todos los días.*",
+  "tagline": "Analista de Sistemas y desarrolladora full stack. Entiendo el negocio, diseño la solución y la llevo a producción: de la primera charla al sistema funcionando.",
+  "available": "Disponible para nuevos proyectos",
+  "badges": [
+    "Analista de Sistemas",
+    "Full Stack"
+  ],
   "location": "Argentina",
   "media": {
     "email": "florantoc@gmail.com",
@@ -13,11 +19,34 @@
     "github": "https://github.com/florcolazo",
     "linkedin": "https://www.linkedin.com/in/florencia-colazo-7159461b1/"
   },
-  "about": "Soy Analista de Sistemas graduada y estudiante avanzada de la Licenciatura en Sistemas. Me apasiona seguir aprendiendo y profundizar mis conocimientos para crecer en el mundo tech, combinando la experiencia práctica en desarrollo web con una sólida formación académica.",
+  "about": "Soy Analista de Sistemas y estudiante avanzada de la Licenciatura en Sistemas. Antes de programar pasé más de diez años del otro lado del mostrador: atendiendo clientes, vendiendo y administrando un comercio. Eso me dejó algo que no se aprende en la facultad: entender qué necesita la persona antes de escribir una sola línea de código. Hoy desarrollo sistemas completos, desde el relevamiento y el modelo de datos hasta la interfaz y la puesta en producción, que usan equipos reales todos los días.",
+  "photo": {"src": "/foto-presentacion.jpg", "alt": "Florencia Colazo presentando La Camisería Urbana en la Facultad de Ciencia y Tecnología", "caption": "Presentando La Camisería Urbana en la FCyT – UADER"},
   "stats": [
-    { "value": "+5", "label": "Proyectos desarrollados" },
-    { "value": "2026", "label": "Analista de Sistemas" },
-    { "value": "+10", "label": "Tecnologías" }
+    { "value": "3", "label": "Sistemas en uso real" },
+    { "value": "12+", "label": "Años trabajando con clientes" },
+    { "value": "4", "label": "Proyectos de punta a punta" }
+  ],
+  "process": [
+    {
+      "icon": "messages-square",
+      "title": "Entiendo el problema",
+      "text": "Relevo requerimientos hablando con quien va a usar el sistema, no solo con quien lo pide."
+    },
+    {
+      "icon": "pen-tool",
+      "title": "Diseño la solución",
+      "text": "Modelo los datos, defino los flujos y boceto la interfaz antes de escribir código."
+    },
+    {
+      "icon": "code-xml",
+      "title": "Desarrollo de punta a punta",
+      "text": "Frontend, backend y base de datos, con código prolijo y fácil de mantener."
+    },
+    {
+      "icon": "rocket",
+      "title": "Pongo en producción y acompaño",
+      "text": "Despliego, capacito al equipo y sigo mejorando el sistema con el uso real."
+    }
   ],
   "technologies": [
     { "icon": "devicon-angular-plain", "name": "Angular" },
@@ -35,46 +64,28 @@
   ],
   "experience": [
     {
+      "icon": "laptop",
+      "title": "Freelance",
+      "subtitle": "Full Stack Developer",
+      "description": "Desarrollo de sitios web, aplicaciones y sistemas a medida para clientes, desde el análisis hasta la puesta en producción.",
+      "date": "2025 - Actualidad"
+    },
+    {
       "icon": "wifi",
       "title": "Internet Services",
-      "subtitle": "Desarrolladora web · Administración",
-      "description": "Desarrollo de landing pages y sitios web de la empresa, atención al público y tareas administrativas.",
-      "date": "2015 - Actualidad"
+      "subtitle": "Administración · Atención al cliente",
+      "description": "Puesto de administración y atención al cliente. Además, desarrollé los sitios web de la agencia.",
+      "date": "2018 - Actualidad"
     },
     {
       "icon": "store",
-      "title": "Local de computación",
-      "subtitle": "Atención al público · Administración",
-      "description": "Atención y asesoramiento a clientes, ventas y gestión administrativa del local."
+      "title": "Tienda de computación",
+      "subtitle": "Ventas online · Administración",
+      "description": "Comenzó como local con atención al público; hoy funciona solo con ventas online. Me encargo de las ventas, el asesoramiento a clientes y la gestión administrativa.",
+      "date": "2014 - Actualidad"
     }
   ],
   "projects": [
-    {
-      "icon": "globe",
-      "title": "Internet Services San José",
-      "subtitle": "Sitio web y panel de administración",
-      "description": "Sitio para un proveedor de internet en San José, Entre Ríos: planes, combos, mapa de cobertura y panel de administración con autenticación.",
-      "technologies": [
-        { "icon": "devicon-react-original", "name": "React" },
-        { "icon": "devicon-typescript-plain", "name": "TypeScript" },
-        { "icon": "devicon-nodejs-plain", "name": "Node.js" },
-        { "icon": "devicon-express-original", "name": "Express" },
-        { "icon": "devicon-sqlite-plain", "name": "SQLite" }
-      ],
-      "image": "/projects/issanjose.jpg",
-      "url": "https://issanjose.com.ar"
-    },
-    {
-      "icon": "refresh-cw",
-      "title": "SyncPanel",
-      "subtitle": "Sincronización de proveedores con Tiendanube",
-      "description": "Panel que sincroniza catálogo, precios y stock de los proveedores Elit e Invid con la tienda online, carga automáticamente los pedidos pagados en el carrito del proveedor y muestra los logs en tiempo real. Incluye un generador de promociones.",
-      "image": "/projects/syncpanel.jpg",
-      "technologies": [
-        { "icon": "devicon-nodejs-plain", "name": "Node.js" },
-        { "icon": "devicon-express-original", "name": "Express" }
-      ]
-    },
     {
       "icon": "message-circle",
       "title": "AgenConecta",
@@ -84,6 +95,94 @@
         { "icon": "devicon-python-plain", "name": "Python" },
         { "icon": "devicon-sqlalchemy-plain", "name": "SQLAlchemy" },
         { "icon": "devicon-supabase-plain", "name": "Supabase" }
+      ],
+      "images": [
+        "/projects/agenconecta-bandeja.jpg",
+        "/projects/agenconecta-tareas.jpg",
+        "/projects/agenconecta-campanas.jpg",
+        "/projects/agenconecta-plantillas.jpg",
+        "/projects/agenconecta-calidad.jpg"
+      ],
+      "status": "En uso",
+      "problem": "El equipo de atención de un proveedor de internet respondía WhatsApp sin saber quién atendía a cada cliente, y los avisos de cortes o de deuda se mandaban uno por uno.",
+      "highlights": [
+        "Bandeja compartida con estados, asignación de conversaciones, etiquetas y notas internas.",
+        "Campañas con plantillas aprobadas por Meta y seguimiento de enviados, fallidos y omitidos.",
+        "Avisos por zona ante cortes, agenda de mantenimiento y chequeo de calidad de los datos de contactos."
+      ]
+    },
+    {
+      "icon": "shopping-bag",
+      "title": "La Camisería Urbana",
+      "subtitle": "E-commerce de camisas · Tienda y panel de administración",
+      "description": "Tienda online con catálogo, búsqueda y filtros, favoritos, bolsa de compra y pago con Mercado Pago, más confirmaciones por email. Incluye panel de administración para productos, stock por talle y color, ventas y un calendario de promociones.",
+      "technologies": [
+        { "icon": "devicon-react-original", "name": "React" },
+        { "icon": "devicon-typescript-plain", "name": "TypeScript" },
+        { "icon": "devicon-rust-original", "name": "Rust" },
+        { "icon": "devicon-graphql-plain", "name": "GraphQL" },
+        { "icon": "devicon-postgresql-plain", "name": "PostgreSQL" },
+        { "icon": "devicon-redis-plain", "name": "Redis" }
+      ],
+      "images": [
+        "/projects/lcu-inicio.jpg",
+        "/projects/lcu-productos.jpg",
+        "/projects/lcu-producto.jpg",
+        "/projects/lcu-bolsa.jpg",
+        "/projects/lcu-pago.jpg",
+        "/projects/lcu-admin-productos.jpg",
+        "/projects/lcu-admin-stock.jpg",
+        "/projects/lcu-admin-promociones.jpg"
+      ],
+      "github": "https://github.com/florcolazo/e-commerce-tienda",
+      "status": "Proyecto académico",
+      "problem": "Proyecto de la carrera: diseñar y construir un e-commerce completo, con pago real, gestión de stock y panel de administración, usando Kanban.",
+      "highlights": [
+        "Tienda con catálogo, búsqueda y filtros, favoritos, bolsa de compra y pago con Mercado Pago.",
+        "Panel de administración: productos, stock por talle y color, ventas y calendario de promociones.",
+        "API GraphQL en Rust con caché y límite de solicitudes en Redis."
+      ]
+    },
+    {
+      "icon": "globe",
+      "title": "Página Agencia Internet Services",
+      "subtitle": "Sitio web y panel de administración",
+      "description": "Sitio para un proveedor de internet en San José, Entre Ríos: planes, combos, mapa de cobertura y panel de administración con autenticación.",
+      "technologies": [
+        { "icon": "devicon-html5-plain", "name": "HTML" },
+        { "icon": "devicon-css3-plain", "name": "CSS" },
+        { "icon": "devicon-javascript-plain", "name": "JavaScript" },
+        { "icon": "devicon-firebase-plain", "name": "Firebase" },
+        { "icon": "devicon-nodejs-plain", "name": "Node.js" },
+        { "icon": "devicon-express-original", "name": "Express" },
+        { "icon": "devicon-sqlite-plain", "name": "SQLite" }
+      ],
+      "image": "/projects/issanjose.jpg",
+      "url": "https://issanjose.com.ar",
+      "status": "En uso",
+      "problem": "Los clientes tenían que llamar a la oficina para consultar planes o saber si la fibra llegaba a su casa.",
+      "highlights": [
+        "Catálogo de planes y combos, preguntas frecuentes y contacto directo por WhatsApp.",
+        "Mapa de cobertura donde el cliente verifica su calle y pide la instalación.",
+        "Panel de administración con autenticación y API propia."
+      ]
+    },
+    {
+      "icon": "refresh-cw",
+      "title": "SyncPanel",
+      "subtitle": "Sincronización de proveedores con Tiendanube",
+      "description": "Panel que sincroniza catálogo, precios y stock de tiendas mayoristas con la tienda online, carga automáticamente los pedidos pagados en el carrito del proveedor y muestra los logs en tiempo real. Incluye un generador de promociones.",
+      "image": "/projects/syncpanel.jpg",
+      "technologies": [
+        { "icon": "devicon-nodejs-plain", "name": "Node.js" },
+        { "icon": "devicon-express-original", "name": "Express" }
+      ],
+      "status": "En uso",
+      "problem": "Mantener al día el catálogo, los precios y el stock de dos tiendas mayoristas en la tienda online era manual, y cada pedido se cargaba a mano en el proveedor.",
+      "highlights": [
+        "Sincroniza catálogo, precios y stock de tiendas mayoristas con Tiendanube.",
+        "Carga sola los pedidos pagados en el carrito del proveedor.",
+        "Logs en tiempo real y generador de promociones."
       ]
     }
   ],
