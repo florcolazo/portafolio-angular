@@ -1,10 +1,10 @@
 {
-  "title": "Florencia Colazo | Systems Analyst & Full Stack Developer",
-  "description": "Systems Analyst & Full Stack Developer, advanced Information Systems student. Web and app development.",
+  "title": "Florencia Colazo · Information Systems Analyst | Full Stack Developer",
+  "description": "Information Systems Analyst | Full Stack Developer, advanced Information Systems student. Web and app development.",
   "image": "https://florcolazo-portfolio.vercel.app/avatar.jpg",
   "avatar": "/avatar.jpg",
   "name": "Florencia Colazo",
-  "skill": "Systems Analyst & Full Stack Developer",
+  "skill": "Information Systems Analyst | Full Stack Developer",
   "headline": "I turn real business problems into *software people use every day.*",
   "tagline": "Systems Analyst and full stack developer. I understand the business, design the solution and ship it: from the first conversation to a working system.",
   "available": "Available for new projects",
@@ -15,12 +15,11 @@
   "location": "Argentina",
   "media": {
     "email": "florantoc@gmail.com",
-    "cv": "/CV-Florencia-Colazo.pdf",
+    "cv": "/CV-Florencia-Colazo-EN.pdf",
     "github": "https://github.com/florcolazo",
     "linkedin": "https://www.linkedin.com/in/florencia-colazo-7159461b1/"
   },
   "about": "I'm a Systems Analyst and an advanced student of the Bachelor's in Information Systems. Before coding, I spent over ten years on the other side of the counter: serving customers, selling and running a store. That taught me something you don't learn at university: understand what people need before writing a single line of code. Today I build complete systems, from requirements and data modeling to the interface and deployment, that real teams use every day.",
-  "photo": {"src": "/foto-presentacion.jpg", "alt": "Florencia Colazo presenting La Camisería Urbana at the Faculty of Science and Technology", "caption": "Presenting La Camisería Urbana at FCyT – UADER"},
   "stats": [
     { "value": "3", "label": "Systems in real use" },
     { "value": "12+", "label": "Years working with customers" },

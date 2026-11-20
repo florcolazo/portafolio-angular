@@ -1,10 +1,10 @@
 {
-  "title": "Florencia Colazo | Analista de Sistemas & Full Stack Developer",
-  "description": "Analista de Sistemas & Full Stack Developer, estudiante avanzada de Licenciatura en Sistemas. Desarrollo web y aplicaciones.",
+  "title": "Florencia Colazo · Analista en Sistemas de Información | Desarrolladora Full Stack",
+  "description": "Analista en Sistemas de Información | Desarrolladora Full Stack, estudiante avanzada de Licenciatura en Sistemas. Desarrollo web y aplicaciones.",
   "image": "https://florcolazo-portfolio.vercel.app/avatar.jpg",
   "avatar": "/avatar.jpg",
   "name": "Florencia Colazo",
-  "skill": "Analista de Sistemas & Full Stack Developer",
+  "skill": "Analista en Sistemas de Información | Desarrolladora Full Stack",
   "headline": "Convierto problemas reales de negocio en *software que se usa todos los días.*",
   "tagline": "Analista de Sistemas y desarrolladora full stack. Entiendo el negocio, diseño la solución y la llevo a producción: de la primera charla al sistema funcionando.",
   "available": "Disponible para nuevos proyectos",
@@ -20,7 +20,6 @@
     "linkedin": "https://www.linkedin.com/in/florencia-colazo-7159461b1/"
   },
   "about": "Soy Analista de Sistemas y estudiante avanzada de la Licenciatura en Sistemas. Antes de programar pasé más de diez años del otro lado del mostrador: atendiendo clientes, vendiendo y administrando un comercio. Eso me dejó algo que no se aprende en la facultad: entender qué necesita la persona antes de escribir una sola línea de código. Hoy desarrollo sistemas completos, desde el relevamiento y el modelo de datos hasta la interfaz y la puesta en producción, que usan equipos reales todos los días.",
-  "photo": {"src": "/foto-presentacion.jpg", "alt": "Florencia Colazo presentando La Camisería Urbana en la Facultad de Ciencia y Tecnología", "caption": "Presentando La Camisería Urbana en la FCyT – UADER"},
   "stats": [
     { "value": "3", "label": "Sistemas en uso real" },
     { "value": "12+", "label": "Años trabajando con clientes" },

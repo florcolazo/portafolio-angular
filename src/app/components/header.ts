@@ -20,7 +20,10 @@ import { MediaLinks } from './media';
           @if (data().available; as available) {
             <span class="available"><span class="pulse" aria-hidden="true"></span>{{ available }}</span>
           }
-          <p class="hero-role">{{ data().name }} <span aria-hidden="true">·</span> {{ data().skill }}</p>
+          <div class="hero-id">
+            <p class="hero-name">{{ data().name }}</p>
+            <p class="hero-role">{{ data().skill }}</p>
+          </div>
           <h1 class="hero-title">
             {{ headline().main }}
             @if (headline().accent; as accent) {
