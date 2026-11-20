@@ -128,7 +128,7 @@
     },
     {
       "icon": "wifi",
-      "title": "Internet Services",
+      "title": "Internet Services – Colón Branch",
       "subtitle": "Web development & administration",
       "description": "Built AgenConecta, the WhatsApp Business platform the team uses to serve 4,000 active customers, and the company website with a coverage map, installation requests and an admin panel. I manage customer sign-ups, cancellations and accounts in the Gestión Real system across a base of 10,000 customers, within a team of 12.",
       "date": "2018 - Present"
@@ -229,9 +229,9 @@
     },
     {
       "icon": "globe",
-      "title": "Internet Services Agency Website",
+      "title": "Internet Services – Colón Branch Website",
       "subtitle": "Website and admin panel",
-      "description": "Website for an internet provider in San José, Entre Ríos: plans, bundles, coverage map and an admin panel with authentication.",
+      "description": "Website for an internet provider in Colón, Entre Ríos: plans, bundles, coverage map and an admin panel with authentication.",
       "technologies": [
         {
           "icon": "devicon-html5-plain",

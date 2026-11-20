@@ -128,7 +128,7 @@
     },
     {
       "icon": "wifi",
-      "title": "Internet Services",
+      "title": "Internet Services – Agencia Colón",
       "subtitle": "Desarrollo web y administración",
       "description": "Desarrollé AgenConecta, la plataforma de WhatsApp Business con la que el equipo atiende a 4.000 clientes activos, y el sitio web de la empresa con mapa de cobertura, solicitud de instalación y panel de administración. Gestiono altas, bajas y cuentas de clientes en el sistema Gestión Real, sobre una base de 10.000 clientes, en un equipo de 12 personas.",
       "date": "2018 - Actualidad"
@@ -229,9 +229,9 @@
     },
     {
       "icon": "globe",
-      "title": "Página Agencia Internet Services",
+      "title": "Página Internet Services – Agencia Colón",
       "subtitle": "Sitio web y panel de administración",
-      "description": "Sitio para un proveedor de internet en San José, Entre Ríos: planes, combos, mapa de cobertura y panel de administración con autenticación.",
+      "description": "Sitio para un proveedor de internet en Colón, Entre Ríos: planes, combos, mapa de cobertura y panel de administración con autenticación.",
       "technologies": [
         {
           "icon": "devicon-html5-plain",
