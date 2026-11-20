@@ -7,7 +7,7 @@
   "skill": "Information Systems Analyst | Full Stack Developer",
   "headline": "I turn real business problems into *software people use every day.*",
   "tagline": "Systems Analyst and full stack developer. I understand the business, design the solution and ship it: from the first conversation to a working system.",
-  "available": "Available for new projects",
+  "available": "Open to a junior role (preferably remote) and new projects",
   "badges": [
     "Systems Analyst",
     "Full Stack"
@@ -19,11 +19,24 @@
     "github": "https://github.com/florcolazo",
     "linkedin": "https://www.linkedin.com/in/florencia-colazo-7159461b1/"
   },
-  "about": "I'm a Systems Analyst and an advanced student of the Bachelor's in Information Systems. Before coding, I spent over ten years on the other side of the counter: serving customers, selling and running a store. That taught me something you don't learn at university: understand what people need before writing a single line of code. Today I build complete systems, from requirements and data modeling to the interface and deployment, that real teams use every day.",
+  "about": "I'm an Information Systems Analyst and an advanced student of the Bachelor's in Information Systems. Before coding, I spent over ten years on the other side of the counter: serving customers, selling and running a store. That taught me something you don't learn at university: understand what people need before writing a single line of code. Today I build complete systems, from requirements and data modeling to the interface and deployment: two of them are used every day by a company with 4,000 active customers. I develop with AI assistance (Claude Code, Antigravity) and I'm looking for a junior Full Stack, Backend or Frontend Developer, or Data Analyst role, preferably remote.",
   "stats": [
-    { "value": "3", "label": "Systems in real use" },
-    { "value": "12+", "label": "Years working with customers" },
-    { "value": "4", "label": "End-to-end projects" }
+    {
+      "value": "4,000",
+      "label": "Active customers served with systems I built"
+    },
+    {
+      "value": "≈5,000",
+      "label": "Products synced automatically"
+    },
+    {
+      "value": "3",
+      "label": "Systems in real use"
+    },
+    {
+      "value": "12+",
+      "label": "Years working with customers"
+    }
   ],
   "process": [
     {
@@ -48,39 +61,83 @@
     }
   ],
   "technologies": [
-    { "icon": "devicon-angular-plain", "name": "Angular" },
-    { "icon": "devicon-typescript-plain", "name": "TypeScript" },
-    { "icon": "devicon-javascript-plain", "name": "JavaScript" },
-    { "icon": "devicon-react-original", "name": "React Native" },
-    { "icon": "devicon-python-plain", "name": "Python" },
-    { "icon": "devicon-rust-original", "name": "Rust" },
-    { "icon": "devicon-nodejs-plain", "name": "Node.js" },
-    { "icon": "icon-database", "name": "SQL" },
-    { "icon": "icon-database", "name": "NoSQL" },
-    { "icon": "devicon-html5-plain", "name": "HTML" },
-    { "icon": "devicon-css3-plain", "name": "CSS" },
-    { "icon": "devicon-git-plain", "name": "Git" }
+    {
+      "icon": "devicon-angular-plain",
+      "name": "Angular"
+    },
+    {
+      "icon": "devicon-typescript-plain",
+      "name": "TypeScript"
+    },
+    {
+      "icon": "devicon-javascript-plain",
+      "name": "JavaScript"
+    },
+    {
+      "icon": "devicon-react-original",
+      "name": "React Native"
+    },
+    {
+      "icon": "devicon-python-plain",
+      "name": "Python"
+    },
+    {
+      "icon": "devicon-rust-original",
+      "name": "Rust"
+    },
+    {
+      "icon": "devicon-nodejs-plain",
+      "name": "Node.js"
+    },
+    {
+      "icon": "icon-database",
+      "name": "SQL"
+    },
+    {
+      "icon": "icon-chart-column",
+      "name": "Power BI"
+    },
+    {
+      "icon": "icon-sheet",
+      "name": "Excel"
+    },
+    {
+      "icon": "icon-database",
+      "name": "NoSQL"
+    },
+    {
+      "icon": "devicon-html5-plain",
+      "name": "HTML"
+    },
+    {
+      "icon": "devicon-css3-plain",
+      "name": "CSS"
+    },
+    {
+      "icon": "devicon-git-plain",
+      "name": "Git"
+    }
   ],
   "experience": [
     {
       "icon": "laptop",
       "title": "Freelance",
       "subtitle": "Full Stack Developer",
-      "description": "Building custom websites, applications and systems for clients, from analysis to production deployment.",
+      "description": "Built SyncPanel, which syncs catalog, prices and stock for approx. 5,000 products between wholesalers and an online store and automatically places paid orders in the supplier's cart, eliminating manual data entry. I gather requirements with each client and take systems from analysis to production.",
       "date": "2025 - Present"
     },
     {
       "icon": "wifi",
       "title": "Internet Services",
-      "subtitle": "Administration · Customer service",
-      "description": "Administration and customer service role. I also built the agency's websites.",
+      "subtitle": "Web development & administration",
+      "description": "Built AgenConecta, the WhatsApp Business platform the team uses to serve 4,000 active customers, and the company website with a coverage map, installation requests and an admin panel. I manage customer sign-ups, cancellations and accounts in the Gestión Real system across a base of 10,000 customers, within a team of 12.",
       "date": "2018 - Present"
     },
     {
       "icon": "store",
       "title": "Computer store",
-      "subtitle": "Online sales · Administration",
-      "description": "Started as a walk-in store; today it operates exclusively through online sales. I handle sales, customer advice and administrative management.",
+      "subtitle": "Tech support & operations · Part-time",
+      "description": "I diagnose and repair computers, install operating systems and software, and advise customers on hardware purchases. I manage sales, inventory and suppliers; the business started as a walk-in store and now runs on online sales.",
       "date": "2014 - Present"
     }
   ],
@@ -89,11 +146,20 @@
       "icon": "message-circle",
       "title": "AgenConecta",
       "subtitle": "WhatsApp administration · Campaigns and shared inbox",
-      "description": "Web app to send WhatsApp Business campaigns and manage a shared inbox so the team can reply to incoming messages.",
+      "description": "Web app to send WhatsApp Business campaigns and manage a shared inbox. The team now uses it to serve 4,000 active customers.",
       "technologies": [
-        { "icon": "devicon-python-plain", "name": "Python" },
-        { "icon": "devicon-sqlalchemy-plain", "name": "SQLAlchemy" },
-        { "icon": "devicon-supabase-plain", "name": "Supabase" }
+        {
+          "icon": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "icon": "devicon-sqlalchemy-plain",
+          "name": "SQLAlchemy"
+        },
+        {
+          "icon": "devicon-supabase-plain",
+          "name": "Supabase"
+        }
       ],
       "images": [
         "/projects/agenconecta-bandeja.jpg",
@@ -107,7 +173,8 @@
       "highlights": [
         "Shared inbox with statuses, conversation assignment, tags and internal notes.",
         "Campaigns with Meta-approved templates and tracking of sent, failed and skipped messages.",
-        "Area notices for outages, a maintenance schedule and contact data quality checks."
+        "Area notices for outages, a maintenance schedule and contact data quality checks.",
+        "Used daily by a team serving 4,000 active customers."
       ]
     },
     {
@@ -116,12 +183,30 @@
       "subtitle": "Shirt e-commerce · Store and admin panel",
       "description": "Online store with catalog, search and filters, favorites, shopping bag and Mercado Pago checkout, plus email confirmations. Includes an admin panel for products, stock by size and color, sales and a promotions calendar.",
       "technologies": [
-        { "icon": "devicon-react-original", "name": "React" },
-        { "icon": "devicon-typescript-plain", "name": "TypeScript" },
-        { "icon": "devicon-rust-original", "name": "Rust" },
-        { "icon": "devicon-graphql-plain", "name": "GraphQL" },
-        { "icon": "devicon-postgresql-plain", "name": "PostgreSQL" },
-        { "icon": "devicon-redis-plain", "name": "Redis" }
+        {
+          "icon": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "icon": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "icon": "devicon-rust-original",
+          "name": "Rust"
+        },
+        {
+          "icon": "devicon-graphql-plain",
+          "name": "GraphQL"
+        },
+        {
+          "icon": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "icon": "devicon-redis-plain",
+          "name": "Redis"
+        }
       ],
       "images": [
         "/projects/lcu-inicio.jpg",
@@ -148,13 +233,34 @@
       "subtitle": "Website and admin panel",
       "description": "Website for an internet provider in San José, Entre Ríos: plans, bundles, coverage map and an admin panel with authentication.",
       "technologies": [
-        { "icon": "devicon-html5-plain", "name": "HTML" },
-        { "icon": "devicon-css3-plain", "name": "CSS" },
-        { "icon": "devicon-javascript-plain", "name": "JavaScript" },
-        { "icon": "devicon-firebase-plain", "name": "Firebase" },
-        { "icon": "devicon-nodejs-plain", "name": "Node.js" },
-        { "icon": "devicon-express-original", "name": "Express" },
-        { "icon": "devicon-sqlite-plain", "name": "SQLite" }
+        {
+          "icon": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "icon": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "icon": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "icon": "devicon-firebase-plain",
+          "name": "Firebase"
+        },
+        {
+          "icon": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "icon": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "icon": "devicon-sqlite-plain",
+          "name": "SQLite"
+        }
       ],
       "image": "/projects/issanjose.jpg",
       "url": "https://issanjose.com.ar",
@@ -170,17 +276,23 @@
       "icon": "refresh-cw",
       "title": "SyncPanel",
       "subtitle": "Supplier sync with Tiendanube",
-      "description": "Panel that syncs catalog, prices and stock from wholesale suppliers with the online store, automatically loads paid orders into the supplier's cart and shows logs in real time. Includes a promotions generator.",
+      "description": "Panel that syncs catalog, prices and stock for approx. 5,000 products from wholesale suppliers with the online store, automatically places paid orders in the supplier's cart and shows logs in real time. Includes a promotions generator.",
       "image": "/projects/syncpanel.jpg",
       "technologies": [
-        { "icon": "devicon-nodejs-plain", "name": "Node.js" },
-        { "icon": "devicon-express-original", "name": "Express" }
+        {
+          "icon": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "icon": "devicon-express-original",
+          "name": "Express"
+        }
       ],
       "status": "In use",
       "problem": "Keeping two wholesale suppliers' catalog, prices and stock up to date in the online store was manual, and every order had to be entered by hand at the supplier.",
       "highlights": [
-        "Syncs catalog, prices and stock from wholesale suppliers to Tiendanube.",
-        "Automatically places paid orders in the supplier's cart.",
+        "Syncs catalog, prices and stock for approx. 5,000 products from wholesale suppliers to Tiendanube.",
+        "Automatically places paid orders in the supplier's cart, eliminating manual data entry.",
         "Real-time logs and a promotions generator."
       ]
     }
@@ -189,16 +301,28 @@
     {
       "icon": "graduation-cap",
       "title": "UADER – Faculty of Science and Technology",
-      "subtitle": "Systems Analyst",
+      "subtitle": "Information Systems Analyst",
       "description": "Associate degree. Concepción del Uruguay campus.",
       "date": "Graduated 2026"
     },
     {
       "icon": "school",
       "title": "UADER – Faculty of Science and Technology",
-      "subtitle": "Bachelor's degree in Information Systems",
-      "description": "In fourth year. Concepción del Uruguay campus.",
+      "subtitle": "B.Sc. in Information Systems",
+      "description": "In fourth year, expected 2027. Concepción del Uruguay campus.",
       "date": "In progress"
+    },
+    {
+      "icon": "chart-column",
+      "title": "Data analysis",
+      "subtitle": "SQL · Excel · Power BI · Python",
+      "description": "Data analysis coursework: SQL queries, Excel, Power BI, dashboard building and Python."
+    },
+    {
+      "icon": "languages",
+      "title": "Languages",
+      "subtitle": "Spanish (native) · English (intermediate, B1)",
+      "description": "Fluent technical reading in English."
     }
   ],
   "extras": []

@@ -7,7 +7,7 @@
   "skill": "Analista en Sistemas de Información | Desarrolladora Full Stack",
   "headline": "Convierto problemas reales de negocio en *software que se usa todos los días.*",
   "tagline": "Analista de Sistemas y desarrolladora full stack. Entiendo el negocio, diseño la solución y la llevo a producción: de la primera charla al sistema funcionando.",
-  "available": "Disponible para nuevos proyectos",
+  "available": "Disponible para un puesto junior (preferentemente remoto) y nuevos proyectos",
   "badges": [
     "Analista de Sistemas",
     "Full Stack"
@@ -19,11 +19,24 @@
     "github": "https://github.com/florcolazo",
     "linkedin": "https://www.linkedin.com/in/florencia-colazo-7159461b1/"
   },
-  "about": "Soy Analista de Sistemas y estudiante avanzada de la Licenciatura en Sistemas. Antes de programar pasé más de diez años del otro lado del mostrador: atendiendo clientes, vendiendo y administrando un comercio. Eso me dejó algo que no se aprende en la facultad: entender qué necesita la persona antes de escribir una sola línea de código. Hoy desarrollo sistemas completos, desde el relevamiento y el modelo de datos hasta la interfaz y la puesta en producción, que usan equipos reales todos los días.",
+  "about": "Soy Analista en Sistemas de Información y estudiante avanzada de la Licenciatura en Sistemas. Antes de programar pasé más de diez años del otro lado del mostrador: atendiendo clientes, vendiendo y administrando un comercio. Eso me dejó algo que no se aprende en la facultad: entender qué necesita la persona antes de escribir una sola línea de código. Hoy desarrollo sistemas completos, desde el relevamiento y el modelo de datos hasta la interfaz y la puesta en producción: dos de ellos los usa a diario una empresa con 4.000 clientes activos. Desarrollo con asistencia de IA (Claude Code, Antigravity) y busco un puesto junior como Desarrolladora Full Stack, Backend, Frontend o Analista de Datos, preferentemente remoto.",
   "stats": [
-    { "value": "3", "label": "Sistemas en uso real" },
-    { "value": "12+", "label": "Años trabajando con clientes" },
-    { "value": "4", "label": "Proyectos de punta a punta" }
+    {
+      "value": "4.000",
+      "label": "Clientes activos atendidos con sistemas que desarrollé"
+    },
+    {
+      "value": "≈5.000",
+      "label": "Productos sincronizados automáticamente"
+    },
+    {
+      "value": "3",
+      "label": "Sistemas en uso real"
+    },
+    {
+      "value": "12+",
+      "label": "Años trabajando con clientes"
+    }
   ],
   "process": [
     {
@@ -48,39 +61,83 @@
     }
   ],
   "technologies": [
-    { "icon": "devicon-angular-plain", "name": "Angular" },
-    { "icon": "devicon-typescript-plain", "name": "TypeScript" },
-    { "icon": "devicon-javascript-plain", "name": "JavaScript" },
-    { "icon": "devicon-react-original", "name": "React Native" },
-    { "icon": "devicon-python-plain", "name": "Python" },
-    { "icon": "devicon-rust-original", "name": "Rust" },
-    { "icon": "devicon-nodejs-plain", "name": "Node.js" },
-    { "icon": "icon-database", "name": "SQL" },
-    { "icon": "icon-database", "name": "NoSQL" },
-    { "icon": "devicon-html5-plain", "name": "HTML" },
-    { "icon": "devicon-css3-plain", "name": "CSS" },
-    { "icon": "devicon-git-plain", "name": "Git" }
+    {
+      "icon": "devicon-angular-plain",
+      "name": "Angular"
+    },
+    {
+      "icon": "devicon-typescript-plain",
+      "name": "TypeScript"
+    },
+    {
+      "icon": "devicon-javascript-plain",
+      "name": "JavaScript"
+    },
+    {
+      "icon": "devicon-react-original",
+      "name": "React Native"
+    },
+    {
+      "icon": "devicon-python-plain",
+      "name": "Python"
+    },
+    {
+      "icon": "devicon-rust-original",
+      "name": "Rust"
+    },
+    {
+      "icon": "devicon-nodejs-plain",
+      "name": "Node.js"
+    },
+    {
+      "icon": "icon-database",
+      "name": "SQL"
+    },
+    {
+      "icon": "icon-chart-column",
+      "name": "Power BI"
+    },
+    {
+      "icon": "icon-sheet",
+      "name": "Excel"
+    },
+    {
+      "icon": "icon-database",
+      "name": "NoSQL"
+    },
+    {
+      "icon": "devicon-html5-plain",
+      "name": "HTML"
+    },
+    {
+      "icon": "devicon-css3-plain",
+      "name": "CSS"
+    },
+    {
+      "icon": "devicon-git-plain",
+      "name": "Git"
+    }
   ],
   "experience": [
     {
       "icon": "laptop",
       "title": "Freelance",
-      "subtitle": "Full Stack Developer",
-      "description": "Desarrollo de sitios web, aplicaciones y sistemas a medida para clientes, desde el análisis hasta la puesta en producción.",
+      "subtitle": "Desarrolladora Full Stack",
+      "description": "Desarrollé SyncPanel, que sincroniza catálogo, precios y stock de aprox. 5.000 productos entre mayoristas y una tienda online y carga solo los pedidos pagados en el carrito del proveedor, eliminando la carga manual. Relevo requerimientos con cada cliente y llevo los sistemas desde el análisis hasta la puesta en producción.",
       "date": "2025 - Actualidad"
     },
     {
       "icon": "wifi",
       "title": "Internet Services",
-      "subtitle": "Administración · Atención al cliente",
-      "description": "Puesto de administración y atención al cliente. Además, desarrollé los sitios web de la agencia.",
+      "subtitle": "Desarrollo web y administración",
+      "description": "Desarrollé AgenConecta, la plataforma de WhatsApp Business con la que el equipo atiende a 4.000 clientes activos, y el sitio web de la empresa con mapa de cobertura, solicitud de instalación y panel de administración. Gestiono altas, bajas y cuentas de clientes en el sistema Gestión Real, sobre una base de 10.000 clientes, en un equipo de 12 personas.",
       "date": "2018 - Actualidad"
     },
     {
       "icon": "store",
       "title": "Tienda de computación",
-      "subtitle": "Ventas online · Administración",
-      "description": "Comenzó como local con atención al público; hoy funciona solo con ventas online. Me encargo de las ventas, el asesoramiento a clientes y la gestión administrativa.",
+      "subtitle": "Soporte técnico y gestión · Medio tiempo",
+      "description": "Diagnostico y reparo computadoras, instalo sistemas operativos y programas y asesoro a clientes en la compra de equipos. Gestiono ventas, stock y proveedores; el negocio empezó como local y hoy funciona con ventas online.",
       "date": "2014 - Actualidad"
     }
   ],
@@ -89,11 +146,20 @@
       "icon": "message-circle",
       "title": "AgenConecta",
       "subtitle": "Administración de WhatsApp · Campañas y bandeja compartida",
-      "description": "Aplicación web para enviar campañas por WhatsApp Business y gestionar una bandeja de entrada compartida para que el equipo responda los mensajes entrantes.",
+      "description": "Aplicación web para enviar campañas por WhatsApp Business y gestionar una bandeja de entrada compartida. Hoy el equipo la usa para atender a 4.000 clientes activos.",
       "technologies": [
-        { "icon": "devicon-python-plain", "name": "Python" },
-        { "icon": "devicon-sqlalchemy-plain", "name": "SQLAlchemy" },
-        { "icon": "devicon-supabase-plain", "name": "Supabase" }
+        {
+          "icon": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "icon": "devicon-sqlalchemy-plain",
+          "name": "SQLAlchemy"
+        },
+        {
+          "icon": "devicon-supabase-plain",
+          "name": "Supabase"
+        }
       ],
       "images": [
         "/projects/agenconecta-bandeja.jpg",
@@ -107,7 +173,8 @@
       "highlights": [
         "Bandeja compartida con estados, asignación de conversaciones, etiquetas y notas internas.",
         "Campañas con plantillas aprobadas por Meta y seguimiento de enviados, fallidos y omitidos.",
-        "Avisos por zona ante cortes, agenda de mantenimiento y chequeo de calidad de los datos de contactos."
+        "Avisos por zona ante cortes, agenda de mantenimiento y chequeo de calidad de los datos de contactos.",
+        "En uso diario por un equipo que atiende a 4.000 clientes activos."
       ]
     },
     {
@@ -116,12 +183,30 @@
       "subtitle": "E-commerce de camisas · Tienda y panel de administración",
       "description": "Tienda online con catálogo, búsqueda y filtros, favoritos, bolsa de compra y pago con Mercado Pago, más confirmaciones por email. Incluye panel de administración para productos, stock por talle y color, ventas y un calendario de promociones.",
       "technologies": [
-        { "icon": "devicon-react-original", "name": "React" },
-        { "icon": "devicon-typescript-plain", "name": "TypeScript" },
-        { "icon": "devicon-rust-original", "name": "Rust" },
-        { "icon": "devicon-graphql-plain", "name": "GraphQL" },
-        { "icon": "devicon-postgresql-plain", "name": "PostgreSQL" },
-        { "icon": "devicon-redis-plain", "name": "Redis" }
+        {
+          "icon": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "icon": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "icon": "devicon-rust-original",
+          "name": "Rust"
+        },
+        {
+          "icon": "devicon-graphql-plain",
+          "name": "GraphQL"
+        },
+        {
+          "icon": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "icon": "devicon-redis-plain",
+          "name": "Redis"
+        }
       ],
       "images": [
         "/projects/lcu-inicio.jpg",
@@ -148,13 +233,34 @@
       "subtitle": "Sitio web y panel de administración",
       "description": "Sitio para un proveedor de internet en San José, Entre Ríos: planes, combos, mapa de cobertura y panel de administración con autenticación.",
       "technologies": [
-        { "icon": "devicon-html5-plain", "name": "HTML" },
-        { "icon": "devicon-css3-plain", "name": "CSS" },
-        { "icon": "devicon-javascript-plain", "name": "JavaScript" },
-        { "icon": "devicon-firebase-plain", "name": "Firebase" },
-        { "icon": "devicon-nodejs-plain", "name": "Node.js" },
-        { "icon": "devicon-express-original", "name": "Express" },
-        { "icon": "devicon-sqlite-plain", "name": "SQLite" }
+        {
+          "icon": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "icon": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "icon": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "icon": "devicon-firebase-plain",
+          "name": "Firebase"
+        },
+        {
+          "icon": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "icon": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "icon": "devicon-sqlite-plain",
+          "name": "SQLite"
+        }
       ],
       "image": "/projects/issanjose.jpg",
       "url": "https://issanjose.com.ar",
@@ -170,17 +276,23 @@
       "icon": "refresh-cw",
       "title": "SyncPanel",
       "subtitle": "Sincronización de proveedores con Tiendanube",
-      "description": "Panel que sincroniza catálogo, precios y stock de tiendas mayoristas con la tienda online, carga automáticamente los pedidos pagados en el carrito del proveedor y muestra los logs en tiempo real. Incluye un generador de promociones.",
+      "description": "Panel que sincroniza catálogo, precios y stock de aprox. 5.000 productos de tiendas mayoristas con la tienda online, carga automáticamente los pedidos pagados en el carrito del proveedor y muestra los logs en tiempo real. Incluye un generador de promociones.",
       "image": "/projects/syncpanel.jpg",
       "technologies": [
-        { "icon": "devicon-nodejs-plain", "name": "Node.js" },
-        { "icon": "devicon-express-original", "name": "Express" }
+        {
+          "icon": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "icon": "devicon-express-original",
+          "name": "Express"
+        }
       ],
       "status": "En uso",
       "problem": "Mantener al día el catálogo, los precios y el stock de dos tiendas mayoristas en la tienda online era manual, y cada pedido se cargaba a mano en el proveedor.",
       "highlights": [
-        "Sincroniza catálogo, precios y stock de tiendas mayoristas con Tiendanube.",
-        "Carga sola los pedidos pagados en el carrito del proveedor.",
+        "Sincroniza catálogo, precios y stock de aprox. 5.000 productos de tiendas mayoristas con Tiendanube.",
+        "Carga sola los pedidos pagados en el carrito del proveedor, eliminando la carga manual.",
         "Logs en tiempo real y generador de promociones."
       ]
     }
@@ -189,16 +301,28 @@
     {
       "icon": "graduation-cap",
       "title": "UADER – Facultad de Ciencia y Tecnología",
-      "subtitle": "Analista de Sistemas",
+      "subtitle": "Analista en Sistemas de Información",
       "description": "Título de pregrado. Sede Concepción del Uruguay.",
       "date": "Graduada 2026"
     },
     {
       "icon": "school",
       "title": "UADER – Facultad de Ciencia y Tecnología",
-      "subtitle": "Licenciatura en Sistemas",
-      "description": "Cursando cuarto año. Sede Concepción del Uruguay.",
+      "subtitle": "Licenciatura en Sistemas de Información",
+      "description": "Cursando cuarto año, finalización estimada 2027. Sede Concepción del Uruguay.",
       "date": "En curso"
+    },
+    {
+      "icon": "chart-column",
+      "title": "Análisis de datos",
+      "subtitle": "SQL · Excel · Power BI · Python",
+      "description": "Formación en análisis de datos: consultas SQL, Excel, Power BI, armado de dashboards y Python."
+    },
+    {
+      "icon": "languages",
+      "title": "Idiomas",
+      "subtitle": "Español nativo · Inglés intermedio (B1)",
+      "description": "Lectura técnica fluida en inglés."
     }
   ],
   "extras": []
